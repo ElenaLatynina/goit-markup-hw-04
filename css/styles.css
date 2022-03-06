@@ -220,6 +220,17 @@
     display: flex;
     
 }
+.features-item::before{
+    display: block;
+    content:"";
+    height: 70px;
+    background-image:url(../icons/antenna.svg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-color:var(--secondary-background-color);
+
+}
 .features-item{
     width: calc(100%/4)-30px;
 
@@ -230,6 +241,7 @@
 }
 
 .features-title{
+    margin-top: 30px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
