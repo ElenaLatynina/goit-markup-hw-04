@@ -157,9 +157,6 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background-color:var(--dark-background-color);
-    /* background-image:
-    url(../Images/hero.jpg)
-    ; */
     background-image:linear-gradient(to right, rgba(47,48,58,0.4),rgba(47,48,58,0.4)),
     url(../Images/hero.jpg);
     background-repeat: no-repeat;
@@ -220,16 +217,27 @@
     display: flex;
     
 }
-.features-item::before{
+.features-button{
+    border:none;
+    height: 120px;
+    background:#F5F4FA;
+}
+.features-button:hover{
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+}
+.features-icon{
     display: block;
     content:"";
     height: 70px;
-    background-image:url(../icons/antenna.svg);
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
     background-color:var(--secondary-background-color);
 
+}
+.features-icon:hover{
+    fill: var(--accent-color);
 }
 .features-item{
     width: calc(100%/4)-30px;
