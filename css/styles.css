@@ -338,8 +338,22 @@
     margin-right: 30px;
 
 }
-.clients-icon{
+.clients-button{
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.clients-button:hover{
+    border: 1px solid var(--accent-color);
 
+}
+.clients-icon{
+    width: 170px;
+    height: 92px;
+    fill: rgba(175, 177, 184, 1);
+    
+}
+.clients-icon:hover{
+    fill: var(--accent-color);
 }
 /* footer */
 
