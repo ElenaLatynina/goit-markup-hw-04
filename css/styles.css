@@ -324,7 +324,23 @@
     color:var(--primary-text-color);
    
 }
+.section-clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
 
+}
+.clients-list{
+    display: flex;
+    justify-content: center;
+
+}
+.clients-list>li:not(:last-child){
+    margin-right: 30px;
+
+}
+.clients-icon{
+
+}
 /* footer */
 
 .footer{
