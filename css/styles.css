@@ -333,21 +333,30 @@
    
 }
 .social-net{
-    /* display: block; */
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+   
 }
 .social-link{
-    /* display: inline-block; */
-    display: flex;
+    display: inline-block;
     width: 44px;
     height: 44px;
+    justify-content: center;
+
 }
+.social-item{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+
+}
+.social-item:not(last-child){margin-right: 22px;}
+
 .section-clients{
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
-.social-link:not(last-child){margin-right: 22px;}
-
 .clients-list{
     display: flex;
     justify-content: center;
