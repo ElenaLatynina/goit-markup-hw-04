@@ -121,7 +121,14 @@
 .contacts>li:not(:last-child){
     margin-right: 50px;
 }
+.contacts-icon{
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    background-color:rgba(117, 117, 117, 1);
+    background-size:contain;
 
+}
 .contacts-mail{
     font-weight: 500;
     font-size: 14px;
@@ -344,21 +351,18 @@
     display: inline-block;
     width: 44px;
     height: 44px;
-    justify-content: center;
     border-radius:50%;
-    background-position:center;
-
+    
 }
 .social-link:hover,
 .social-link:focus{
     background-color:var(--accent-color)
 }
 .social-item{
-    display: inline-flex;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
-    background-position:center;
+    position:center;
 
 }
 .social-item:not(last-child){margin-right: 22px;}
