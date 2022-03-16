@@ -355,13 +355,14 @@
     width: 44px;
     height: 44px;
     border-radius:50%;
-    background-color:blue;
+    /* background-color:blue; */
    
     
 }
 .social-link:hover,
 .social-link:focus{
-    background-color:var(--accent-color)
+    stroke:var(--accent-color);
+    
 }
 .social-item{
     display: inline-flex;
@@ -370,16 +371,10 @@
     fill: #AFB1B8;
     position: center;
 
-   
 }
 .social-item:not(last-child){margin-right: 22px;}
 
-.social-item:hover,
-.social-item:focus{
-    fill:var(--primary-white-color);
-
     
-}
 .section-clients{
     padding-top: 94px;
     padding-bottom: 94px;
