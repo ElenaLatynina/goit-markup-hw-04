@@ -351,17 +351,17 @@
    
 }
 .social-link{
-    display: inline-block;
+    display: flex;
     width: 44px;
     height: 44px;
+    align-items:center;
+    justify-content: center;
     border-radius:50%;
-    /* background-color:blue; */
-   
     
 }
 .social-link:hover,
 .social-link:focus{
-    stroke:var(--accent-color);
+    background-color:var(--accent-color);
     
 }
 .social-item{
@@ -372,9 +372,11 @@
     position: center;
 
 }
-.social-item:not(last-child){margin-right: 22px;}
-
-    
+  
+.social-item:hover,
+.social-item:focus{
+    fill:var(--primary-white-color)
+}
 .section-clients{
     padding-top: 94px;
     padding-bottom: 94px;
