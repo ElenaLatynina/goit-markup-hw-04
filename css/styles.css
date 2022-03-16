@@ -258,7 +258,6 @@
 }
 .features-icon{
     display: block;
-    content:"";
     height: 70px;
     background-repeat:no-repeat;
     background-size:contain;
@@ -481,6 +480,21 @@
 .footer-contacts:hover,
 .footer-contacts:focus{
     text-decoration: underline;
+}
+.join-part{
+    display: flex;
+    flex-direction:column ;
+}
+
+.features-title-join{
+    display: block;
+    /* margin-top: 30px; */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--primary-white-color);
 }
 /* Портофолио */
 .projects-section{
