@@ -33,6 +33,10 @@
         padding: 0px;
     }
 
+    img{
+        display: block;
+    }
+    
 .header{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -120,6 +124,12 @@
 .contacts>li:not(:last-child){
     margin-right: 50px;
 }
+.contacts-item>:hover,
+.contacts-item>:focus{
+    color: var(--accent-color);
+    fill: var(--accent-color);
+    
+}
 .envelope{
     display: block;
     width: 16px;
@@ -129,10 +139,6 @@
     rgba(117, 117, 117, 1)   
     ;
    
-}
-.envelope-icon:hover,
-.envelope-icon:focus{
-    fill:var(--accent-color);
 }
 
 .contacts-mail{
@@ -145,25 +151,17 @@
 
 }
 
-.contacts-mail:hover,
-.contacts-mail:focus{
-    color: var(--accent-color);
-    
-}
+
 .phone{
     display: block;
-    width: 16px;
-    height: 10px;
+    width: 10px;
+    height: 16px;
     margin-right: 10px;
     color:
     rgba(117, 117, 117, 1)   
     ba
     ;
 
-}
-.phone:hover,
-.phone:focus{
-    fill:var(--accent-color);
 }
 
 .contacts-phone{
@@ -174,11 +172,6 @@
     text-decoration:none;
     color:var(--primary-text-color);
     
-}
-
-.contacts-phone:hover,
-.contacts-phone:focus{
-    color: var(--accent-color);
 }
 
 /* hero */
