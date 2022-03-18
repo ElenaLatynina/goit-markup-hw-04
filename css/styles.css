@@ -120,6 +120,8 @@
 .contacts-item{
     display: flex;
     align-items: center; 
+    color:rgba(117, 117, 117, 1)   
+    ;
 }
 .contacts>li:not(:last-child){
     margin-right: 50px;
@@ -130,15 +132,14 @@
     fill: var(--accent-color);
     
 }
+
 .envelope{
     display: block;
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    color:
-    rgba(117, 117, 117, 1)   
-    ;
-   
+    fill:currentColor;
+    
 }
 
 .contacts-mail{
@@ -151,16 +152,12 @@
 
 }
 
-
 .phone{
     display: block;
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    color:
-    rgba(117, 117, 117, 1)   
-    ba
-    ;
+    fill:currentColor;
 
 }
 
