@@ -500,14 +500,10 @@
     background-color:rgba(255, 255, 255, 0.1);
     
 /* Портофолио */
-/* .projects-section{
-    padding-top: 94px;
-   padding-bottom:94px;
-} */
 
 .projects-section{
     padding-top: 94px;
-    padding-bottom:94px;
+    padding-bottom: 94px;
 }
 
 .projects{
