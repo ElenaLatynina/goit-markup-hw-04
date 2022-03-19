@@ -330,6 +330,7 @@
 .team-member{
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color:var(--primary-background-color);
 }
 .name{
     font-weight: 500;
@@ -367,7 +368,8 @@
 }
 .social-link:hover,
 .social-link:focus{
-    background-color:var(--accent-color);
+    color:var(--accent-color);
+    fill:var(--primary-white-color);
     
 }
 .social-item{
@@ -381,9 +383,9 @@
   
 .social-item:hover,
 .social-item:focus{
-    fill:var(--primary-white-color)
+    fill:var(--primary-white-color);
 }
-.section-clients{
+.section-clients{ 
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -396,25 +398,24 @@
     margin-right: 30px;
 
 }
-.clients-button{
+.clients-logo{
+    display: block;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
-.clients-button:hover,
-.clients-button:focus{
+.clients-logo:hover .clients-icon,
+.clients-logo:focus .clients-icon{
     border: 1px solid var(--accent-color);
-
+    border-radius: 4px;
+    fill: var(--accent-color);
+    
 }
 .clients-icon{
     width: 170px;
     height: 92px;
     fill: rgba(175, 177, 184, 1);
-    
 }
-.clients-icon:hover,
-.clients-icon:focus{
-    fill: var(--accent-color);
-}
+
 /* footer */
 
 .footer{
@@ -498,6 +499,9 @@
     justify-content: center;
     border-radius:50%;
     background-color:rgba(255, 255, 255, 0.1);}
+
+.social-link-footer:not(:last-child){
+    margin-right: 10px;}
 
 .social-link-footer:hover,
 .social-link-footer:focus{
