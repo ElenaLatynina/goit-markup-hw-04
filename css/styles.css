@@ -113,11 +113,13 @@
 }
 
 .contacts{
+    /* display: block; */
     display:flex;
     margin-left: auto;
 
 }
 .contacts-item{
+    /* display: block; */
     display: flex;
     align-items: center; 
     color:rgba(117, 117, 117, 1)   
