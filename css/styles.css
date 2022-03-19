@@ -479,7 +479,7 @@
 .join-part{
     display: flex;
     flex-direction:column ;
-    margin-left: 156px;
+    margin-left: 70px;
 }
 
 .title-join{
@@ -524,6 +524,7 @@
     margin-right: 8px;
 }
 .project-button { 
+    padding: 6px 22px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -533,9 +534,8 @@
 
     color: var(--title-text-color);
     background-color: var(-secondary-background-color);
-    border: transparent;
     cursor: pointer;
-
+    border:transparent;
     border-radius: 4px;
 
 }
@@ -566,7 +566,6 @@
 
 .examples-item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    border: 1px solid var(--accent-color)
 
 }
 .project-content{
