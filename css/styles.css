@@ -386,7 +386,7 @@
     background-color:var(--accent-color);
 
 }
-  
+  /* Section Постоянные клиенты */
 .section-clients{ 
     padding-top: 94px;
     padding-bottom: 94px;
@@ -394,16 +394,24 @@
 .clients-list{
     display: flex;
     justify-content: center;
+    align-items:center;
 
 }
+.clients-list>li{
+    display: block;}
+
+   
 .clients-list>li:not(:last-child){
     margin-right: 30px;
 
 }
 .clients-logo{
     display: block;
+    width: 170px ;
+    height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    fill: rgba(175, 177, 184, 1);
 }
 .clients-logo:hover .clients-icon,
 .clients-logo:focus .clients-icon{
@@ -413,8 +421,7 @@
     
 }
 .clients-icon{
-    /* width: 170px;
-    height: 92px; */
+    display: block;
     fill: rgba(175, 177, 184, 1);
 }
 
